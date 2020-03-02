@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TwilioApplication</string>
+    <string name="company">Daktar Bondhu</string>
+    <string name="video">Video</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="connect_to_internet">Connect to Internet</string>
+    <string name="ok">Ok</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="make_video_call">Make Video Call</string>
+    <string name="room_status">Status</string>
+    <string name="permissions_needed">Permission Needed</string>
+    <string name="settings">Settings</string>
+    <string name="turn_speaker_on">Speaker ON</string>
+    <string name="turn_speaker_off">Speaker OFF</string>
+    <string name="error_retrieving_access_token">Error Retreiving Access Token</string>
+</resources>

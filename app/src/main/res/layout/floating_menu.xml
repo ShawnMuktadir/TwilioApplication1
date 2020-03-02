@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_black"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/fabMakeVideoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginRight="@dimen/_60sdp"
+        android:layout_marginBottom="@dimen/_80sdp"
+        android:padding="@dimen/dim5"
+        android:text="@string/make_video_call"
+        android:textColor="#ffffff"
+        android:visibility="visible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabMakeVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_70sdp"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:padding="@dimen/dim5"
+        android:src="@drawable/ic_add_black"
+        android:visibility="visible"
+        app:backgroundTint="@color/fab_color"
+        app:pressedTranslationZ="12dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_mother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/dim15"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:src="@drawable/ic_add_black"
+        android:visibility="visible"
+        app:backgroundTint="@color/fab_color"
+        app:pressedTranslationZ="12dp" />
+</RelativeLayout>

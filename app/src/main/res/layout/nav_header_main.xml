@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navHeaderMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/dim10"
+    android:theme="@style/Theme.AppCompat.Light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dim10"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dim80"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim10"
+            android:padding="@dimen/_2sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="@dimen/dim80"
+                android:layout_height="@dimen/dim80"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:padding="@dimen/dim3"
+                android:src="@drawable/ic_person"
+                android:visibility="visible"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="@dimen/dim2"
+                app:civ_circle_background_color="@color/transparent" />
+
+            <TextView
+                android:id="@+id/textViewNavImagePlaceHolder"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim80"
+                android:layout_centerInParent="true"
+                android:background="@drawable/circle_green_grad_bg_stroke_white"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimTex30"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvShopName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimTex20"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvCompany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:text="@string/company"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimTex16"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

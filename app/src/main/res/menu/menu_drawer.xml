@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group
+        android:id="@+id/nav_menu_main_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_video"
+            android:icon="@drawable/ic_video"
+            android:title="@string/video" />
+<!--        <item-->
+<!--            android:id="@+id/menu_settings"-->
+<!--            android:icon="@drawable/ic_nav_today_selector"-->
+<!--            android:title="@string/todays_summary"-->
+<!--            android:visible="false" />-->
+
+    </group>
+
+
+
+
+</menu>
